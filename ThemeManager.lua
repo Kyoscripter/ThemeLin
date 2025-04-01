@@ -2,10 +2,9 @@ local httpService = game:GetService('HttpService')
 local ThemeManager = {} do
 	ThemeManager.Folder = 'LinoriaLibSettings'
 	-- if not isfolder(ThemeManager.Folder) then makefolder(ThemeManager.Folder) end
--- //{"MainColor":"1a1919","AccentColor":"ff00e5","OutlineColor":"000000","BackgroundColor":"141414","FontColor":"ffffff"}
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['Lonera'] 		= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"ff00ed","BackgroundColor":"1c1c1c","OutlineColor":"373737"}') },
+		['Roval.win'] 		= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"131313","AccentColor":"ffffff","BackgroundColor":"0f0f0f","OutlineColor":"0e0d0d"}') },
 		['BBot'] 			= { 2, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1e1e","AccentColor":"7e48a3","BackgroundColor":"232323","OutlineColor":"141414"}') },
 		['Fatality']		= { 3, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1842","AccentColor":"c50754","BackgroundColor":"191335","OutlineColor":"3c355d"}') },
 		['Jester'] 			= { 4, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"db4467","BackgroundColor":"1c1c1c","OutlineColor":"373737"}') },
